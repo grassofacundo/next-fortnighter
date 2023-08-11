@@ -1,0 +1,14 @@
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    background-color: var(--mainColor);
+
+    .dashboardWrapper {
+        height: 100%;
+        width: 100%;
+    }
+}
