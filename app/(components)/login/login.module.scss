@@ -1,0 +1,14 @@
+.loginWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    padding-bottom: var(--footerHeight);
+    background-color: var(--mainColor);
+
+    .mailInput {
+        display: flex;
+        justify-content: center;
+    }
+}
